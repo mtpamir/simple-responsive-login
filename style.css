@@ -1,0 +1,58 @@
+body{
+  color: #E75151;
+  background: rgba(81, 81, 81,.5); 
+}
+a{
+  color: #E75151;
+  text-decoration: none;
+}
+a:hover{
+  color: #E75151;
+}
+.login-form-wraper{
+  min-height: 100vh;
+}
+.login-form{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+}
+.login-form h3{
+  font-weight: 100;
+}
+input[type="email"], input[type="password"], button[type="submit"], input[type="text"]{
+      border-radius: 90px;
+    padding: 1rem 1.5rem;
+}
+
+input[type="email"]:focus, input[type="password"]:focus, button[type="submit"]:focus, input[type="text"]:focus{
+  border-color: rgba(231, 81, 81,.3);
+  box-shadow: 0 0 0 0.2rem rgba(231, 81, 81,.3);
+}
+
+
+button{
+  cursor: pointer;
+}
+button[type="submit"]{min-width: 150px;}
+
+/* primary Button */
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(231, 81, 81,.5);
+}
+.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #E75151;
+    border-color: #E75151;
+    box-shadow: 0 0 0 0.2rem rgba(231, 81, 81,.5);
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #A13939;
+    border-color: #A13939;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #E75151;
+    border-color: #E75151;
+}
